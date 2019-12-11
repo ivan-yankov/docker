@@ -2,8 +2,8 @@ image=java-dev
 jdk=jdk-8u161-linux-x64.tar.gz
 maven=apache-maven-3.6.0-bin.tar.gz
 
-cp /home/yankov/install/java/jdk/oracle/$jdk .
-cp /home/yankov/install/java/maven/$maven .
+cp ~/install/java/jdk/oracle/$jdk .
+cp ~/install/java/maven/$maven .
 
 docker build --tag $image .
 
