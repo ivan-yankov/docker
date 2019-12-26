@@ -1,1 +1,1 @@
-docker push ivanyankovd/scala-openjdk-8
+docker push ivanyankov/scala-openjdk-8

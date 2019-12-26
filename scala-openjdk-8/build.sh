@@ -1,1 +1,1 @@
-docker build --tag ivanyankovd/scala-openjdk-8 .
+docker build --tag ivanyankov/scala-openjdk-8 .
