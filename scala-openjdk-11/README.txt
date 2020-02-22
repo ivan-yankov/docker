@@ -1,1 +1,1 @@
-docker run -it --rm -v <host-folder>:/home/projects --name scala ivanyankov/scala-openjdk-11:latest
+docker run -it --rm -v <host-folder>:/home/projects --name scala ivanyankov/scala:latest

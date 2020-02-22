@@ -1,1 +1,1 @@
-docker push ivanyankov/scala-openjdk-11
+docker push ivanyankov/scala

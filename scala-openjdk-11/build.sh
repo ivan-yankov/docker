@@ -1,1 +1,1 @@
-docker build --tag ivanyankov/scala-openjdk-11 .
+docker build --tag ivanyankov/scala .

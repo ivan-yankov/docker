@@ -12,7 +12,12 @@ RUN curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E4
 RUN apt-get update
 RUN apt-get install -y sbt
 
-RUN rm -rf *
-
 RUN mkdir /home/projects
+
+RUN yes init | sbt new scala/scala-seed.g8
+WORKDIR init
+RUN sbt compile test run
+
 WORKDIR /home/projects
+
+RUN rm -rf *
